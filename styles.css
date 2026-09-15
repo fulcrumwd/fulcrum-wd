@@ -189,8 +189,8 @@ a {
   align-items: center;
   overflow: hidden;
   background:
-    radial-gradient(circle at 75% 45%, rgba(30, 107, 177, 0.15), transparent 32%),
-    linear-gradient(135deg, #07111f 0%, #09182a 55%, #06101c 100%);
+    linear-gradient(rgba(7, 17, 31, 0.55), rgba(7, 17, 31, 0.75)),
+    url('hero-background.png') center center / cover no-repeat;
 }
 
 .hero-grid {
