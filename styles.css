@@ -13,3 +13,83 @@
 .site-footer{border-top:1px solid var(--line);background:#050d17}.footer-content{min-height:110px;display:flex;justify-content:space-between;align-items:center;gap:30px}.footer-logo{color:white;font-size:14px;font-weight:800;letter-spacing:.16em}.footer-logo span{color:var(--blue)}.footer-brand p{color:#55677b;font-size:10px;margin-top:5px}.footer-right{text-align:right}.footer-right p{color:#526276;font-size:10px}
 @media(max-width:900px){.nav-menu{position:absolute;top:78px;left:0;width:100%;background:rgba(7,17,31,.98);backdrop-filter:blur(20px);padding:25px;display:none;flex-direction:column;align-items:stretch;gap:20px;border-bottom:1px solid var(--line)}.nav-menu.active{display:flex}.nav-cta{text-align:center}.menu-toggle{display:block}.two-column,.government-layout,.contact-grid,.approach-banner{grid-template-columns:1fr;gap:55px}.capability-grid,.experience-grid{grid-template-columns:repeat(2,1fr)}.experience-copy{border-left:0;border-top:1px solid rgba(73,170,255,.25);padding:30px 0 0}.contact-grid{gap:50px}}
 @media(max-width:620px){.container{width:min(calc(100% - 32px),var(--max-width))}.nav-container{height:70px}.hero{min-height:850px}.hero h1{font-size:68px}.hero-text{font-size:15px}.hero-buttons{flex-direction:column;align-items:stretch}.hero-stats{flex-wrap:wrap;margin-top:55px}.hero-stats div{width:50%;min-width:0;margin:0;padding-bottom:15px}.hero-decoration{opacity:.4;right:-300px}.section{padding:90px 0}.section-heading h2{font-size:42px}.capability-grid,.experience-grid{grid-template-columns:1fr}.about-details{grid-template-columns:1fr;gap:20px}.approach-banner{padding:35px 25px}.footer-content{padding:30px 0;flex-direction:column;align-items:flex-start}.footer-right{text-align:left}}.services-section{background:#0a1728;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:1080px;margin:0 auto}.service-grid article{padding:32px;border:1px solid var(--line);background:rgba(255,255,255,.025);min-height:240px;transition:.25s}.service-grid article:hover{transform:translateY(-4px);border-color:rgba(73,170,255,.3)}.service-grid span{color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.12em}.service-grid h3{color:white;font-size:22px;margin:20px 0 12px}.service-grid p{color:var(--muted);font-size:13px;line-height:1.8}@media(max-width:620px){.service-grid{grid-template-columns:1fr}.service-grid article{min-height:0}}
+
+/* =========================
+   SMALL BUSINESS WEB DESIGN
+========================= */
+.website-section{
+  background:#091523;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.website-layout{
+  display:grid;
+  grid-template-columns:1fr 0.9fr;
+  gap:80px;
+  align-items:stretch;
+  max-width:1080px;
+  margin:0 auto;
+}
+.website-copy{
+  padding:10px 0;
+}
+.website-copy .large-copy{
+  font-size:20px;
+  line-height:1.65;
+  color:#d4dfeb;
+  margin-bottom:25px;
+}
+.website-copy p{
+  color:var(--muted);
+  max-width:570px;
+}
+.website-package{
+  padding:34px;
+  border:1px solid rgba(73,170,255,.22);
+  background:linear-gradient(145deg,rgba(33,150,255,.09),rgba(255,255,255,.025));
+}
+.package-top{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.package-top span{
+  color:var(--blue-bright);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.18em;
+}
+.package-top strong{
+  color:white;
+  font-size:30px;
+  letter-spacing:-.03em;
+}
+.package-divider{
+  height:1px;
+  background:var(--line);
+  margin:25px 0 5px;
+}
+.website-package ul{
+  list-style:none;
+}
+.website-package li{
+  color:#c1cedc;
+  font-size:13px;
+  padding:11px 0;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.website-package li::before{
+  content:"✓";
+  color:var(--blue-bright);
+  font-weight:800;
+  margin-right:12px;
+}
+.package-note{
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.7;
+  margin-top:20px;
+}
+@media(max-width:900px){
+  .website-layout{grid-template-columns:1fr;gap:45px}
+}
