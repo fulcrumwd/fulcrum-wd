@@ -334,3 +334,22 @@ body{
   .support-ribbon{align-items:flex-start;gap:10px}
   .support-ribbon b{display:none}
 }
+
+/* Services page: match the new cinematic grid */
+.services-page{padding-top:70px}
+.service-page-grid{grid-template-columns:repeat(3,1fr);max-width:1200px}
+.service-page-grid article{
+  position:relative;min-height:250px;padding:30px;
+  background:
+    linear-gradient(145deg,rgba(12,60,105,.32),rgba(2,14,29,.78)),
+    radial-gradient(circle at 90% 15%,rgba(33,150,255,.1),transparent 42%);
+  overflow:hidden;
+}
+.service-page-grid article::after{
+  content:"→";position:absolute;right:20px;bottom:18px;color:#159dff;font-size:22px;
+}
+.service-page-grid article .text-link{
+  margin-top:20px;font-size:9px;
+}
+@media(max-width:900px){.service-page-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.service-page-grid{grid-template-columns:1fr}}
