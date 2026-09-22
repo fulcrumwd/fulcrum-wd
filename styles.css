@@ -134,8 +134,8 @@
 ========================= */
 body:has(.inner-hero) {
   background:
-    radial-gradient(circle at 78% 18%, rgba(33,150,255,.11), transparent 28%),
-    linear-gradient(135deg,#07111f 0%,#09182a 55%,#06101c 100%);
+    linear-gradient(rgba(4,12,23,.88), rgba(4,12,23,.94)),
+    url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80") center / cover fixed no-repeat;
 }
 
 body:has(.inner-hero)::before {
